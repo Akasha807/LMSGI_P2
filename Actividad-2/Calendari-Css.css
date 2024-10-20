@@ -1,0 +1,35 @@
+/* Estilo para el título <h1> */
+h1 {
+    color: #133aff; 
+    font-weight: bold;
+    text-align: center; 
+}
+
+/* Estilo para la tabla */
+table {
+    margin: auto;
+    border-collapse: collapse; 
+    width: 80%;
+
+}
+
+/* Estilo para el caption de la tabla */
+caption {
+    color: #e7e744; 
+    font-size: 25px; 
+}
+
+/* Estilo para las celdas de la cabecera */
+th {
+    width: 100px; 
+    font-weight: bold; 
+    background-color: rgb(99, 255, 47);
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+td {
+    border: 1px solid black; 
+}
+table, th, td {
+    border: 1px solid black;
+}
