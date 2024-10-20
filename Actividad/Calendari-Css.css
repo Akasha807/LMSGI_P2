@@ -1,35 +1,76 @@
-/* Estilo para el título <h1> */
-h1 {
-    color: #133aff; 
-    font-weight: bold;
-    text-align: center; 
+/*Color de Headers*/
+#h1{
+    color: #005eff;
+    font-family: Verdana; 
+    text-align: center;
 }
-
-/* Estilo para la tabla */
-table {
-    margin: auto;
-    border-collapse: collapse; 
-    width: 80%;
+#h2{
+    font-family: Verdana; 
+    color: #ffea00;
+    text-align: center;
 
 }
 
-/* Estilo para el caption de la tabla */
-caption {
-    color: #e7e744; 
-    font-size: 25px; 
-}
-
-/* Estilo para las celdas de la cabecera */
-th {
-    width: 100px; 
-    font-weight: bold; 
-    background-color: rgb(99, 255, 47);
-}
-
-/* Estilo para las celdas del cuerpo de la tabla */
-td {
-    border: 1px solid black; 
-}
+/*Estilo de la tabla*/
 table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center; /* AlineaciÃ³n en el centro */
+    font-family: Verdana; /* Fuente de letra*/
 }
+
+/* Tamaño de la tabla*/
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* Estilos para las horas */
+.horas {
+    font-size: 20px;
+    padding: 10px;
+    width: 180px;
+}
+
+/* Estilo del descanso */
+#descans {
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* Estilo de las cabeceras */
+th {
+    padding: 30px;
+    font-size: 25px;
+}
+
+/* Tamaño de las celdas */
+td {
+    width: 20%; 
+}
+
+/* Colores de la tabla de horarios */
+
+/* P+ED */
+.color-verde { background-color: #437861; }
+
+/* TUT */
+.color-azul { background-color: #0f6bff; }
+
+/* DIW */       
+.color-naranja { background-color: #ff9933; }
+
+/* BD */
+.color-amarillo-flojo { background-color: #ffffbb; }
+
+/* LMSGI */
+.color-morado { background-color: #f7aad4; }
+
+/* SI y AN*/
+.color-amarillo { background-color: #fbff00; }
+
+/* IPOI */
+.color-cyan { background-color: #ff0000; }
+
+/* Dias */
+.color-verde-flojo { background-color: #00ff6a; }
